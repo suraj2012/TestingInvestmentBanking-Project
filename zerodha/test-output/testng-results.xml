@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-18T15:03:37 IST" name="Suite" finished-at="2022-07-18T15:05:11 IST" duration-ms="93659">
+    <groups>
+    </groups>
+    <test started-at="2022-07-18T15:03:37 IST" name="ChromeTest" finished-at="2022-07-18T15:04:21 IST" duration-ms="43611">
+      <class name="zerodhaTest.TestClass">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:zerodhaTest.TestClass@6ca8564a]" started-at="2022-07-18T15:03:37 IST" name="launchBrowser" finished-at="2022-07-18T15:03:42 IST" duration-ms="4160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="pomObjects()[pri:0, instance:zerodhaTest.TestClass@6ca8564a]" started-at="2022-07-18T15:03:42 IST" name="pomObjects" finished-at="2022-07-18T15:03:42 IST" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pomObjects -->
+        <test-method is-config="true" signature="launchLoginPage()[pri:0, instance:zerodhaTest.TestClass@6ca8564a]" started-at="2022-07-18T15:03:42 IST" name="launchLoginPage" finished-at="2022-07-18T15:03:49 IST" duration-ms="7574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchLoginPage -->
+        <test-method signature="testVerifyOrdersLink()[pri:0, instance:zerodhaTest.TestClass@6ca8564a]" started-at="2022-07-18T15:03:49 IST" name="testVerifyOrdersLink" finished-at="2022-07-18T15:03:51 IST" duration-ms="1336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyOrdersLink -->
+        <test-method is-config="true" signature="logoutPage()[pri:0, instance:zerodhaTest.TestClass@6ca8564a]" started-at="2022-07-18T15:03:51 IST" name="logoutPage" finished-at="2022-07-18T15:03:57 IST" duration-ms="6147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutPage -->
+        <test-method is-config="true" signature="launchLoginPage()[pri:0, instance:zerodhaTest.TestClass@6ca8564a]" started-at="2022-07-18T15:03:57 IST" name="launchLoginPage" finished-at="2022-07-18T15:04:02 IST" duration-ms="5440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchLoginPage -->
+        <test-method signature="testVerifyHoldingLink()[pri:1, instance:zerodhaTest.TestClass@6ca8564a]" started-at="2022-07-18T15:04:02 IST" name="testVerifyHoldingLink" finished-at="2022-07-18T15:04:03 IST" duration-ms="618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyHoldingLink -->
+        <test-method is-config="true" signature="logoutPage()[pri:0, instance:zerodhaTest.TestClass@6ca8564a]" started-at="2022-07-18T15:04:03 IST" name="logoutPage" finished-at="2022-07-18T15:04:09 IST" duration-ms="6280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutPage -->
+        <test-method is-config="true" signature="launchLoginPage()[pri:0, instance:zerodhaTest.TestClass@6ca8564a]" started-at="2022-07-18T15:04:09 IST" name="launchLoginPage" finished-at="2022-07-18T15:04:14 IST" duration-ms="4990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchLoginPage -->
+        <test-method signature="testVerifyPositionLink()[pri:2, instance:zerodhaTest.TestClass@6ca8564a]" started-at="2022-07-18T15:04:14 IST" name="testVerifyPositionLink" finished-at="2022-07-18T15:04:14 IST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyPositionLink -->
+        <test-method is-config="true" signature="logoutPage()[pri:0, instance:zerodhaTest.TestClass@6ca8564a]" started-at="2022-07-18T15:04:14 IST" name="logoutPage" finished-at="2022-07-18T15:04:20 IST" duration-ms="6052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutPage -->
+        <test-method is-config="true" signature="closeObjects()[pri:0, instance:zerodhaTest.TestClass@6ca8564a]" started-at="2022-07-18T15:04:20 IST" name="closeObjects" finished-at="2022-07-18T15:04:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeObjects -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:zerodhaTest.TestClass@6ca8564a]" started-at="2022-07-18T15:04:20 IST" name="closeBrowser" finished-at="2022-07-18T15:04:21 IST" duration-ms="668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- zerodhaTest.TestClass -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2022-07-18T15:04:21 IST" name="FirefoxTest" finished-at="2022-07-18T15:05:11 IST" duration-ms="49988">
+      <class name="zerodhaTest.TestClass">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:zerodhaTest.TestClass@1a451d4d]" started-at="2022-07-18T15:04:21 IST" name="launchBrowser" finished-at="2022-07-18T15:04:28 IST" duration-ms="6465" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="pomObjects()[pri:0, instance:zerodhaTest.TestClass@1a451d4d]" started-at="2022-07-18T15:04:28 IST" name="pomObjects" finished-at="2022-07-18T15:04:28 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pomObjects -->
+        <test-method is-config="true" signature="launchLoginPage()[pri:0, instance:zerodhaTest.TestClass@1a451d4d]" started-at="2022-07-18T15:04:28 IST" name="launchLoginPage" finished-at="2022-07-18T15:04:37 IST" duration-ms="9357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchLoginPage -->
+        <test-method signature="testVerifyOrdersLink()[pri:0, instance:zerodhaTest.TestClass@1a451d4d]" started-at="2022-07-18T15:04:37 IST" name="testVerifyOrdersLink" finished-at="2022-07-18T15:04:37 IST" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyOrdersLink -->
+        <test-method is-config="true" signature="logoutPage()[pri:0, instance:zerodhaTest.TestClass@1a451d4d]" started-at="2022-07-18T15:04:37 IST" name="logoutPage" finished-at="2022-07-18T15:04:43 IST" duration-ms="6113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutPage -->
+        <test-method is-config="true" signature="launchLoginPage()[pri:0, instance:zerodhaTest.TestClass@1a451d4d]" started-at="2022-07-18T15:04:43 IST" name="launchLoginPage" finished-at="2022-07-18T15:04:50 IST" duration-ms="6540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchLoginPage -->
+        <test-method signature="testVerifyHoldingLink()[pri:1, instance:zerodhaTest.TestClass@1a451d4d]" started-at="2022-07-18T15:04:50 IST" name="testVerifyHoldingLink" finished-at="2022-07-18T15:04:50 IST" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyHoldingLink -->
+        <test-method is-config="true" signature="logoutPage()[pri:0, instance:zerodhaTest.TestClass@1a451d4d]" started-at="2022-07-18T15:04:50 IST" name="logoutPage" finished-at="2022-07-18T15:04:56 IST" duration-ms="6001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutPage -->
+        <test-method is-config="true" signature="launchLoginPage()[pri:0, instance:zerodhaTest.TestClass@1a451d4d]" started-at="2022-07-18T15:04:56 IST" name="launchLoginPage" finished-at="2022-07-18T15:05:02 IST" duration-ms="6246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchLoginPage -->
+        <test-method signature="testVerifyPositionLink()[pri:2, instance:zerodhaTest.TestClass@1a451d4d]" started-at="2022-07-18T15:05:02 IST" name="testVerifyPositionLink" finished-at="2022-07-18T15:05:03 IST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyPositionLink -->
+        <test-method is-config="true" signature="logoutPage()[pri:0, instance:zerodhaTest.TestClass@1a451d4d]" started-at="2022-07-18T15:05:03 IST" name="logoutPage" finished-at="2022-07-18T15:05:09 IST" duration-ms="6052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutPage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:zerodhaTest.TestClass@1a451d4d]" started-at="2022-07-18T15:05:09 IST" name="closeBrowser" finished-at="2022-07-18T15:05:11 IST" duration-ms="2331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="closeObjects()[pri:0, instance:zerodhaTest.TestClass@1a451d4d]" started-at="2022-07-18T15:05:09 IST" name="closeObjects" finished-at="2022-07-18T15:05:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeObjects -->
+      </class> <!-- zerodhaTest.TestClass -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
