@@ -64,6 +64,7 @@ public class TestClass extends Base {
 		
 		dp.clickOnOrders();
 		String orders_Url=driver.getCurrentUrl();
+//		String url = "abc.com";
 		
 		Assert.assertEquals(orders_Url, orders_Url);
 	}

@@ -1,135 +1,201 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="0" failed="0" skipped="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-18T15:03:37 IST" name="Suite" finished-at="2022-07-18T15:05:11 IST" duration-ms="93659">
+  <suite started-at="2022-07-28T15:29:38 IST" name="Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Default suite]]]]]" finished-at="2022-07-28T15:29:38 IST" duration-ms="174">
     <groups>
     </groups>
-    <test started-at="2022-07-18T15:03:37 IST" name="ChromeTest" finished-at="2022-07-18T15:04:21 IST" duration-ms="43611">
+    <test started-at="2022-07-28T15:29:38 IST" name="Default test(failed)(failed)(failed)(failed)(failed)" finished-at="2022-07-28T15:29:38 IST" duration-ms="174">
       <class name="zerodhaTest.TestClass">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:zerodhaTest.TestClass@6ca8564a]" started-at="2022-07-18T15:03:37 IST" name="launchBrowser" finished-at="2022-07-18T15:03:42 IST" duration-ms="4160" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:zerodhaTest.TestClass@31368b99]" started-at="2022-07-28T15:29:38 IST" name="launchBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1659002378665" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Suraj\git\TestingInvestmentBanking-Project\zerodha\test-output\testng-failed.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Suraj\git\TestingInvestmentBanking-Project\zerodha\test-output\testng-failed.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="pomObjects()[pri:0, instance:zerodhaTest.TestClass@6ca8564a]" started-at="2022-07-18T15:03:42 IST" name="pomObjects" finished-at="2022-07-18T15:03:42 IST" duration-ms="86" status="PASS">
+        <test-method is-config="true" signature="pomObjects()[pri:0, instance:zerodhaTest.TestClass@31368b99]" started-at="2022-07-28T15:29:38 IST" name="pomObjects" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1659002378723" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pomObjects -->
-        <test-method is-config="true" signature="launchLoginPage()[pri:0, instance:zerodhaTest.TestClass@6ca8564a]" started-at="2022-07-18T15:03:42 IST" name="launchLoginPage" finished-at="2022-07-18T15:03:49 IST" duration-ms="7574" status="PASS">
+        <test-method is-config="true" signature="launchLoginPage()[pri:0, instance:zerodhaTest.TestClass@31368b99]" started-at="2022-07-28T15:29:38 IST" name="launchLoginPage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1659002378755" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchLoginPage -->
-        <test-method signature="testVerifyOrdersLink()[pri:0, instance:zerodhaTest.TestClass@6ca8564a]" started-at="2022-07-18T15:03:49 IST" name="testVerifyOrdersLink" finished-at="2022-07-18T15:03:51 IST" duration-ms="1336" status="PASS">
+        <test-method signature="testVerifyOrdersLink()[pri:0, instance:zerodhaTest.TestClass@31368b99]" started-at="2022-07-28T15:29:38 IST" name="testVerifyOrdersLink" finished-at="2022-07-28T15:29:38 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Suraj\git\TestingInvestmentBanking-Project\zerodha\test-output\testng-failed.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Suraj\git\TestingInvestmentBanking-Project\zerodha\test-output\testng-failed.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testVerifyOrdersLink -->
-        <test-method is-config="true" signature="logoutPage()[pri:0, instance:zerodhaTest.TestClass@6ca8564a]" started-at="2022-07-18T15:03:51 IST" name="logoutPage" finished-at="2022-07-18T15:03:57 IST" duration-ms="6147" status="PASS">
+        <test-method is-config="true" signature="logoutPage()[pri:0, instance:zerodhaTest.TestClass@31368b99]" started-at="2022-07-28T15:29:38 IST" name="logoutPage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1659002378773" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutPage -->
-        <test-method is-config="true" signature="launchLoginPage()[pri:0, instance:zerodhaTest.TestClass@6ca8564a]" started-at="2022-07-18T15:03:57 IST" name="launchLoginPage" finished-at="2022-07-18T15:04:02 IST" duration-ms="5440" status="PASS">
+        <test-method is-config="true" signature="launchLoginPage()[pri:0, instance:zerodhaTest.TestClass@31368b99]" started-at="2022-07-28T15:29:38 IST" name="launchLoginPage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1659002378780" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchLoginPage -->
-        <test-method signature="testVerifyHoldingLink()[pri:1, instance:zerodhaTest.TestClass@6ca8564a]" started-at="2022-07-18T15:04:02 IST" name="testVerifyHoldingLink" finished-at="2022-07-18T15:04:03 IST" duration-ms="618" status="PASS">
+        <test-method signature="testVerifyHoldingLink()[pri:1, instance:zerodhaTest.TestClass@31368b99]" started-at="2022-07-28T15:29:38 IST" name="testVerifyHoldingLink" finished-at="2022-07-28T15:29:38 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Suraj\git\TestingInvestmentBanking-Project\zerodha\test-output\testng-failed.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Suraj\git\TestingInvestmentBanking-Project\zerodha\test-output\testng-failed.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testVerifyHoldingLink -->
-        <test-method is-config="true" signature="logoutPage()[pri:0, instance:zerodhaTest.TestClass@6ca8564a]" started-at="2022-07-18T15:04:03 IST" name="logoutPage" finished-at="2022-07-18T15:04:09 IST" duration-ms="6280" status="PASS">
+        <test-method is-config="true" signature="logoutPage()[pri:0, instance:zerodhaTest.TestClass@31368b99]" started-at="2022-07-28T15:29:38 IST" name="logoutPage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1659002378800" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutPage -->
-        <test-method is-config="true" signature="launchLoginPage()[pri:0, instance:zerodhaTest.TestClass@6ca8564a]" started-at="2022-07-18T15:04:09 IST" name="launchLoginPage" finished-at="2022-07-18T15:04:14 IST" duration-ms="4990" status="PASS">
+        <test-method is-config="true" signature="launchLoginPage()[pri:0, instance:zerodhaTest.TestClass@31368b99]" started-at="2022-07-28T15:29:38 IST" name="launchLoginPage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1659002378805" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchLoginPage -->
-        <test-method signature="testVerifyPositionLink()[pri:2, instance:zerodhaTest.TestClass@6ca8564a]" started-at="2022-07-18T15:04:14 IST" name="testVerifyPositionLink" finished-at="2022-07-18T15:04:14 IST" duration-ms="141" status="PASS">
+        <test-method signature="testVerifyPositionLink()[pri:2, instance:zerodhaTest.TestClass@31368b99]" started-at="2022-07-28T15:29:38 IST" name="testVerifyPositionLink" finished-at="2022-07-28T15:29:38 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Suraj\git\TestingInvestmentBanking-Project\zerodha\test-output\testng-failed.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in C:\Users\Suraj\git\TestingInvestmentBanking-Project\zerodha\test-output\testng-failed.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testVerifyPositionLink -->
-        <test-method is-config="true" signature="logoutPage()[pri:0, instance:zerodhaTest.TestClass@6ca8564a]" started-at="2022-07-18T15:04:14 IST" name="logoutPage" finished-at="2022-07-18T15:04:20 IST" duration-ms="6052" status="PASS">
+        <test-method is-config="true" signature="logoutPage()[pri:0, instance:zerodhaTest.TestClass@31368b99]" started-at="2022-07-28T15:29:38 IST" name="logoutPage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1659002378816" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutPage -->
-        <test-method is-config="true" signature="closeObjects()[pri:0, instance:zerodhaTest.TestClass@6ca8564a]" started-at="2022-07-18T15:04:20 IST" name="closeObjects" finished-at="2022-07-18T15:04:20 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="closeObjects()[pri:0, instance:zerodhaTest.TestClass@31368b99]" started-at="2022-07-28T15:29:38 IST" name="closeObjects" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1659002378824" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeObjects -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:zerodhaTest.TestClass@6ca8564a]" started-at="2022-07-18T15:04:20 IST" name="closeBrowser" finished-at="2022-07-18T15:04:21 IST" duration-ms="668" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:zerodhaTest.TestClass@31368b99]" started-at="2022-07-28T15:29:38 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1659002378826" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- zerodhaTest.TestClass -->
-    </test> <!-- ChromeTest -->
-    <test started-at="2022-07-18T15:04:21 IST" name="FirefoxTest" finished-at="2022-07-18T15:05:11 IST" duration-ms="49988">
-      <class name="zerodhaTest.TestClass">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:zerodhaTest.TestClass@1a451d4d]" started-at="2022-07-18T15:04:21 IST" name="launchBrowser" finished-at="2022-07-18T15:04:28 IST" duration-ms="6465" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="pomObjects()[pri:0, instance:zerodhaTest.TestClass@1a451d4d]" started-at="2022-07-18T15:04:28 IST" name="pomObjects" finished-at="2022-07-18T15:04:28 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pomObjects -->
-        <test-method is-config="true" signature="launchLoginPage()[pri:0, instance:zerodhaTest.TestClass@1a451d4d]" started-at="2022-07-18T15:04:28 IST" name="launchLoginPage" finished-at="2022-07-18T15:04:37 IST" duration-ms="9357" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchLoginPage -->
-        <test-method signature="testVerifyOrdersLink()[pri:0, instance:zerodhaTest.TestClass@1a451d4d]" started-at="2022-07-18T15:04:37 IST" name="testVerifyOrdersLink" finished-at="2022-07-18T15:04:37 IST" duration-ms="316" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testVerifyOrdersLink -->
-        <test-method is-config="true" signature="logoutPage()[pri:0, instance:zerodhaTest.TestClass@1a451d4d]" started-at="2022-07-18T15:04:37 IST" name="logoutPage" finished-at="2022-07-18T15:04:43 IST" duration-ms="6113" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoutPage -->
-        <test-method is-config="true" signature="launchLoginPage()[pri:0, instance:zerodhaTest.TestClass@1a451d4d]" started-at="2022-07-18T15:04:43 IST" name="launchLoginPage" finished-at="2022-07-18T15:04:50 IST" duration-ms="6540" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchLoginPage -->
-        <test-method signature="testVerifyHoldingLink()[pri:1, instance:zerodhaTest.TestClass@1a451d4d]" started-at="2022-07-18T15:04:50 IST" name="testVerifyHoldingLink" finished-at="2022-07-18T15:04:50 IST" duration-ms="282" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testVerifyHoldingLink -->
-        <test-method is-config="true" signature="logoutPage()[pri:0, instance:zerodhaTest.TestClass@1a451d4d]" started-at="2022-07-18T15:04:50 IST" name="logoutPage" finished-at="2022-07-18T15:04:56 IST" duration-ms="6001" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoutPage -->
-        <test-method is-config="true" signature="launchLoginPage()[pri:0, instance:zerodhaTest.TestClass@1a451d4d]" started-at="2022-07-18T15:04:56 IST" name="launchLoginPage" finished-at="2022-07-18T15:05:02 IST" duration-ms="6246" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchLoginPage -->
-        <test-method signature="testVerifyPositionLink()[pri:2, instance:zerodhaTest.TestClass@1a451d4d]" started-at="2022-07-18T15:05:02 IST" name="testVerifyPositionLink" finished-at="2022-07-18T15:05:03 IST" duration-ms="269" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testVerifyPositionLink -->
-        <test-method is-config="true" signature="logoutPage()[pri:0, instance:zerodhaTest.TestClass@1a451d4d]" started-at="2022-07-18T15:05:03 IST" name="logoutPage" finished-at="2022-07-18T15:05:09 IST" duration-ms="6052" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoutPage -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:zerodhaTest.TestClass@1a451d4d]" started-at="2022-07-18T15:05:09 IST" name="closeBrowser" finished-at="2022-07-18T15:05:11 IST" duration-ms="2331" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="closeObjects()[pri:0, instance:zerodhaTest.TestClass@1a451d4d]" started-at="2022-07-18T15:05:09 IST" name="closeObjects" finished-at="2022-07-18T15:05:09 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeObjects -->
-      </class> <!-- zerodhaTest.TestClass -->
-    </test> <!-- FirefoxTest -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test(failed)(failed)(failed)(failed)(failed) -->
+  </suite> <!-- Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Default suite]]]]] -->
 </testng-results>

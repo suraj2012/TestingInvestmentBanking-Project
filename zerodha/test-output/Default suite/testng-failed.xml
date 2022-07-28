@@ -5,11 +5,14 @@
     <classes>
       <class name="zerodhaTest.TestClass">
         <methods>
-          <include name="browserClose"/>
+          <include name="testVerifyOrdersLink"/>
+          <include name="closeObjects"/>
           <include name="launchLoginPage"/>
           <include name="logoutPage"/>
-          <include name="verifyPositionLink"/>
-          <include name="verifyHoldingLink"/>
+          <include name="pomObjects"/>
+          <include name="closeBrowser"/>
+          <include name="testVerifyPositionLink"/>
+          <include name="testVerifyHoldingLink"/>
           <include name="launchBrowser"/>
         </methods>
       </class> <!-- zerodhaTest.TestClass -->
