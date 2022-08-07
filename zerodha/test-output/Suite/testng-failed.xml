@@ -12,7 +12,6 @@
           <include name="logoutPage"/>
           <include name="pomObjects"/>
           <include name="closeBrowser"/>
-          <include name="testVerifyPositionLink"/>
           <include name="launchBrowser"/>
         </methods>
       </class> <!-- zerodhaTest.TestClass -->

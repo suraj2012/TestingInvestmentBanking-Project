@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import Utils.Utility;
+import Utility.Utils;
 
 public class LoginPage {
 	
@@ -21,12 +21,12 @@ public class LoginPage {
 	}
 	
 	public void enterUserId() throws EncryptedDocumentException, IOException {
-		String data = Utility.fetchData("Sheet1", 0, 0);
+		String data = Utils.fetchData("Sheet1", 0, 0);
 		userId.sendKeys(data);
 	}
 	
 	public void enterPassword() throws EncryptedDocumentException, IOException {
-		String data = Utility.fetchData("Sheet1", 1, 0);
+		String data = Utils.fetchData("Sheet1", 1, 0);
 		pass.sendKeys(data);
 	}
 	

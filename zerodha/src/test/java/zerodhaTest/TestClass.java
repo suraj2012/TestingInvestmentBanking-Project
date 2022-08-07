@@ -7,6 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
@@ -17,6 +18,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import Browser.Base;
+import Utility.Utils;
 import zerodhaClass.DashboardPage;
 import zerodhaClass.LoginPage;
 import zerodhaClass.PinPage;
@@ -28,6 +30,7 @@ public class TestClass extends Base {
 	PinPage pp;
 	DashboardPage dp;
 	Profile p;
+	int testId;
 	@BeforeTest
 	@Parameters("browser")
 	public void launchBrowser(String Browser) {
@@ -61,16 +64,17 @@ public class TestClass extends Base {
 	
 	@Test (priority=0)
 	public void testVerifyOrdersLink() throws InterruptedException {
-		
+		testId=101;
 		dp.clickOnOrders();
 		String orders_Url=driver.getCurrentUrl();
 //		String url = "abc.com";
 		
 		Assert.assertEquals(orders_Url, orders_Url);
+		Assert.fail();
 	}
 	@Test (priority=1)
 	public void testVerifyHoldingLink() throws InterruptedException {
-		
+		testId=102;
 		dp.clickOnHolding();
 		String holding_Url=driver.getCurrentUrl();
 		
@@ -78,14 +82,18 @@ public class TestClass extends Base {
 	}
 	@Test (priority=2)
 	public void testVerifyPositionLink() throws InterruptedException {
-		
+		testId=103;
 		dp.clickOnPostion();;
 		String position_Url=driver.getCurrentUrl();
 		
 		Assert.assertEquals(position_Url, position_Url);
 	}
 	@AfterMethod
-	public void logoutPage() throws InterruptedException {
+	public void logoutPage(ITestResult result) throws InterruptedException, IOException {
+		if(ITestResult.FAILURE==result.getStatus()) {
+			Utils.screenshot(driver, testId);
+		}
+		
 		Thread.sleep(3000);
 		dp.clickOnProfileId();
 		

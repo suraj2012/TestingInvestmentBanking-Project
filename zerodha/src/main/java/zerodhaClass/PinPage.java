@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import Utils.Utility;
+import Utility.Utils;
 
 public class PinPage {
 	
@@ -20,7 +20,7 @@ public class PinPage {
 	}
 	
 	public void enterPin() throws EncryptedDocumentException, IOException {
-		String data = Utility.fetchData("Sheet1", 2, 0);
+		String data = Utils.fetchData("Sheet1", 2, 0);
 		pin.sendKeys(data);
 	}
 	public void clickContinueButton() {
